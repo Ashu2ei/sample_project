@@ -23,7 +23,7 @@ python manage.py migrate
 python manage.py runserver
 '''
 
-**4. Open your postman and pass these values to url and body(raw):**
+**4. Open your postman and pass these values to url and data to body:**
 '''
 http://127.0.0.1:8000/myapi/simple-post/
 
