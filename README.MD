@@ -11,9 +11,13 @@ then --> source/my_env/bin/activate (to activate your environment)
 git clone https://github.com/Ashu2ei/sample_project.git
 '''
 
-**3. Switch to sample_project and run following commands:**
+**3. Switch to sample_project and run following command:**
 '''
 pip install -r requirements.txt
+'''
+
+**3. Then Switch to sample_project/sample_project(contains manage.py) and run following commands:**
+'''
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
